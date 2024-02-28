@@ -9,12 +9,17 @@ import { View } from '@/components/Themed';
 import { LoaderComponenet} from '@/components/useEffect';
 import { SinceCounter } from '@/components/hookPerso';
 import { ThreeScreen } from '@/components/useReducer';
+import { ThemeButtons } from '@/components/theme_button';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 export default function TabOneScreen() {
+
   return (
     <>
     <ScrollView>
       <ThreeScreen/>
+      <ThemeButtons/>
       <StyledSectionList />
       <SinceCounter/>
       <HelloButton
