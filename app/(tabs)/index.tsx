@@ -19,7 +19,7 @@ export default function TabOneScreen() {
       <SinceCounter/>
       <HelloButton
         title={'Click here to say HELLO'}
-        sayHello={() => console.log('Hello')}
+        sayHello={() => console.log('Hello frere')}
       />
       <View>
         <ConditionButton error={true} />
