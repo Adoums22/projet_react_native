@@ -1,0 +1,15 @@
+name: Expo CI CD
+
+on:
+  push :
+    branches : [master] 
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job 
+    steps:
+    # Checks out your repository  under $GITHUB_WORKSPACE,so your job can access it 
+      - uses: actions/checkout@v2
+
+      - name: Install Node Modules
+        run: npm install
