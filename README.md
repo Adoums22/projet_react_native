@@ -28,3 +28,4 @@ npm list react-native
 Lancement du Projet :
 
 Commande cmd : npm sart
+insatller les packages : npm -i
