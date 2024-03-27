@@ -1,5 +1,4 @@
 import { ScrollView, StyleSheet } from 'react-native';
-import { StyledSectionList } from '@/components/styled-sectionList.component';
 import { HelloButton } from '@/components/eventClick.component';
 import { ConditionButton } from '@/components/conditionButton';
 import { ListItem } from '@/components/liste-component';
@@ -10,8 +9,8 @@ import { LoaderComponenet} from '@/components/useEffect';
 import { SinceCounter } from '@/components/hookPerso';
 import { ThreeScreen } from '@/components/useReducer';
 import { ThemeButtons } from '@/components/theme_button';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import { ColoredText } from '@/components/styled-text.component';
+import { StyledSectionList } from '@/components/styled-sectionList.component';
 
 export default function TabOneScreen() {
 
@@ -20,7 +19,8 @@ export default function TabOneScreen() {
     <ScrollView>
       <ThreeScreen/>
       <ThemeButtons/>
-      <StyledSectionList />
+      <ColoredText text="HellO"></ColoredText>
+      <StyledSectionList></StyledSectionList>
       <SinceCounter/>
       <HelloButton
         title={'Click here to say HELLO'}

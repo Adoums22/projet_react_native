@@ -1,6 +1,7 @@
 import { SectionList } from 'react-native';
 import {Text, View} from './Themed';
 import { ColoredText } from './styled-text.component';
+import React from 'react';
 const DATA = [
     {
       title: 'Main dishes',
@@ -27,6 +28,6 @@ export function StyledSectionList() {
         </View>
       )}
       renderSectionHeader={({section: {title}}) => (
-        <ColoredText>{title}</ColoredText>
+        <ColoredText text={title}></ColoredText>
       )}></SectionList></>
 }
