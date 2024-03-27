@@ -1,31 +1,27 @@
+Description of the React Native application
 
-Description de l'application React Native 
+This application covers the fundamentals of development with React Native, using various advanced concepts and features. It has been designed as part of a tutorial aimed at exploring in depth the various aspects of React Native, including hooks, variables and constants, classes and interfaces.
 
-Cette application répond aux fondamentaux du développement avec React Native en utilisant divers concepts et fonctionnalités avancées. Elle a été conçue dans le cadre d'un TP visant à explorer en profondeur les différents aspects de React Native, notamment les hooks, les variables et constantes, les classes et interfaces.
+Project configuration and execution To launch the project, make sure you have the following versions installed:
 
-Configuration et exécution du projet
-Pour lancer le projet, assurez-vous d'avoir les versions suivantes installées :
+Node.js: Versionv 16.17.0 or higher
 
-Node.js: Versionv 16.17.0 ou supérieure
-
-Commande cmd:
+Command cmd:
 
 node -v
 
-Expo CLI: Version ^50.0.7 ou supérieure
+Expo CLI: Version ^50.0.7 or higher
 
-
-Commande cmd:
+Command cmd:
 
 expo --version
 
-React Native: Version 0.73.2 ou supérieure
+React Native: Version 0.73.2 or higher
 
-Commande cmd:
+Command cmd:
 
 npm list react-native
 
-Lancement du Projet :
+Project launch :
 
-Commande cmd : npm sart
-insatller les packages : npm -i
+cmd command: npm sart insatller packages: npm -i
