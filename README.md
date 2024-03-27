@@ -22,6 +22,8 @@ Command cmd:
 
 npm list react-native
 
-Project launch :
+To launch project :
 
-cmd command: npm sart insatller packages: npm -i
+cmd command: npm sart 
+
+install packages: npm -i
