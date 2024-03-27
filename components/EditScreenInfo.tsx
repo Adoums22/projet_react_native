@@ -23,7 +23,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 
         <Text
           style={styles.getStartedText}>
-          Change any of the text, savee the file, and your app will automatically update.
+          Change any of the texxt, savee the file, and your app will automatically update.
         </Text>
       </View>
 
