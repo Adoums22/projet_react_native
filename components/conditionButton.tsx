@@ -6,7 +6,7 @@ export function ConditionButton({ loading, error, title}: { loading?: boolean, e
     let content
 
     if (error) {
-        content = <Text style={{ fontSize: 24, color: 'red'}}>Error</Text>
+        content = <Text style={{ fontSize: 24, color: 'red'}}>Errorr</Text>
     } else if (loading) {
         content = <Text style={{ fontSize: 24, color: 'gray'}}>Loading</Text>
     }else {
