@@ -6,7 +6,8 @@
       "preview": {
         "distribution": "internal",
         "android": { "buildType": "apk" },
-        "credentialsSource": "remote"
+        "credentialsSource": "remote",
+        "withoutCredentials": true
       },
       "production": {}
     },
