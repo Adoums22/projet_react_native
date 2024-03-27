@@ -1,4 +1,6 @@
-Description of the React Native application
+# React Native Application README
+
+## Description
 
 This application covers the fundamentals of development with React Native, using various advanced concepts and features. It has been designed as part of a tutorial aimed at exploring in depth the various aspects of React Native, including hooks, variables and constants, classes and interfaces.
 
